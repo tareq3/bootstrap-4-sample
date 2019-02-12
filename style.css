@@ -1,27 +1,27 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
-
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,700");
+/* for html and body same style thats why using , in-between */
 html,
 body {
   height: 100%;
-  width: 100%;
-  font-family: 'poppins', sans-serif;
+  width: 100%; /* 100% make sure img holds its width height ratio */
+  font-family: "poppins", sans-serif;
   color: #222;
 }
-
+/* navbar class padding 1.6 px */
 .navbar {
-  padding: .1rem;
+  padding: 0.1rem;
 }
 
+/* nav-item class  */
 .nav-item {
   padding-right: 20px;
 }
-
+/* overriding the previously assigned CSS declarations by !important  */
 .nav-link {
   font-size: 1.1em !important;
-
 }
 
-
+/* under carousel-item in img tag */
 .carousel-item img {
   width: 100%;
   height: 100%;
@@ -33,7 +33,7 @@ body {
   top: 50%;
   transform: translateY(-50%);
 }
-
+/* inside carousel-caption in h1 */
 .carousel-caption h1 {
   font-size: 500%;
   text-transform: uppercase;
@@ -62,11 +62,9 @@ body {
   border-radius: 0;
 }
 
-
 .padding {
   padding-bottom: 2rem;
 }
-
 
 .welcome hr {
   border-top: 2px solid #b4b4b4;
@@ -83,28 +81,28 @@ body {
   max-width: 100%;
 }
 
-
 footer {
   background-color: #3f3f3f;
   color: #d5d5d5;
   padding-top: 2rem;
 }
-
+/* under hr tag in light class */
 hr.light {
   border-top: 1px solid #d5d5d5;
   width: 75%;
-  margin-top: .2rem;
+  margin-top: 0.2rem;
+}
+/* media queries for providing some extra conditions  */
+/*---Media Queries --*/
+@media (max-width: 992px) {
+  /* when max-with is 992 */
 }
 
+@media (max-width: 768px) {
+}
 
-
-/*---Media Queries --*/
-@media (max-width: 992px) {}
-
-@media (max-width: 768px) {}
-
-@media (max-width: 576px) {}
-
+@media (max-width: 576px) {
+}
 
 /*---Firefox Bug Fix --*/
 .carousel-item {
@@ -133,7 +131,7 @@ figure {
 }
 
 #fixed {
-  background-image: url('img/mac.png');
+  background-image: url("img/mac.png");
   position: fixed;
   display: block;
   top: 0;
@@ -151,10 +149,6 @@ figure {
 [class*="col-"] {
   padding: 1rem;
 }
-
-
-
-
 
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
