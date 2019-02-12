@@ -145,7 +145,7 @@ figure {
   will-change: transform;
 }
 
-/*--- Bootstrap Padding Fix --*/
+/*--- Bootstrap Padding Fix for mobile--*/
 [class*="col-"] {
   padding: 1rem;
 }
