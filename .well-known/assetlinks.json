@@ -1,0 +1,9 @@
+[{
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.mti.inspiring_beaver_849450",
+      "sha256_cert_fingerprints":
+      ["A9:53:08:A2:C9:7D:62:27:D5:42:AF:0A:8F:BA:A3:EC:8D:EA:AA:0D:C4:03:9F:B9:47:86:F8:3C:B8:56:46:CA"]
+    }
+  }]
